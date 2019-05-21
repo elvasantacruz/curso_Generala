@@ -8,6 +8,7 @@ list = [0,1,2,3,4]
 def tirada(lista):
     for i in lista:
         dados[i] = random.randrange(1,7)
+        print (dados)
     return dados
 
 
