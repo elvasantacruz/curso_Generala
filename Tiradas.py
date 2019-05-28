@@ -12,17 +12,19 @@ def tirada(lista):
     return dados
 
 
-
-
+#todos los dados iguales
 def es_generala(lista):
     if lista[0] == lista[1] == lista[2] == lista[3] == lista[4]:
         return True
     else:
         return False
 
-
+#4 dados iguales
 def es_poker(lista):
-    pass
+    if lista[0] == lista[1] == lista[2] == lista[3]:
+        return True
+    else:
+        return False
 
 def es_escalera(lista):
     pass
@@ -31,3 +33,4 @@ def es_full(lista):
     pass
 
 print(es_generala(tirada(list)))
+print(es_poker(tirada(list)))
